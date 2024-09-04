@@ -1,0 +1,402 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'SoDo Sans', sans-serif;
+    height: 6000px;
+}
+
+
+header {
+    background-color: #fff;
+    padding: 20px 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.header-image {
+    flex-grow: 1;
+    text-align: start;
+}
+
+.logo{
+    height: 50px;
+    width: auto;
+    margin-left: 20px;
+}
+
+
+.navigation-left{
+    display: flex;
+    gap: 3dvh;
+    font-weight: 900;
+    margin-right: 115px;
+}
+
+.navigation-left a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.5mm;
+}
+
+.store-option{
+    margin-left: 465px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.side-buttons{
+    gap: 2.5dvh;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign-in, .join-now {
+    padding: 7px 14px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'SoDo Sans';
+}
+
+.sign-in {
+    background: transparent;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+}
+
+.join-now {
+    background-color: #000000;
+    color: #fff;
+
+}
+
+.sign-in:hover,
+.join-now:hover {
+    opacity: 0.9;
+}
+
+.gap{
+    height: 4dvh;
+}
+
+
+/* ________HERO PORTION_________ */
+
+.hero{
+    height: 4958.54px;
+    width: 1423.06px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-1-container{
+    width: 1423.06px;
+    height: 617.65px;
+    display: flex;
+}
+
+.rightside-container{
+    align-items: center;
+    justify-content: center;
+    width: 711.53px;
+    height: 617.65px;
+}
+
+.items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    margin-bottom: 25px;
+
+}
+
+.rightside-container .title{
+    letter-spacing: 0.5mm;
+    font-weight: 500;
+    font-size: 50px;
+    justify-content: center;
+    
+}
+
+.subtitle{
+    font-size: 25px;
+    margin-top: 1px;
+    line-height: 35px;
+}
+
+.leftside-image img{
+    width: 711.53px;
+    height: 617.65px;
+}
+.leftside-image{
+    width: 711.53px;
+    height: 617.65px;
+}
+
+/* HERO SPECIAL */
+.hero-special-container{
+    height: 415.06px;
+    display: flex;
+}
+
+.rightside-container-spcl{
+    align-items: center;
+    justify-content: center;
+    width: 711.53px;
+    height: 415.06px;
+}
+
+.rightside-container-spcl .items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    margin-top: 75px;
+}
+
+.rightside-container-spcl .items .title{
+    line-height: 1.5px;
+    letter-spacing: 0.1dvh;
+    font-weight:normal;
+    font-size: 24px;
+    justify-content: center;
+}
+
+.rightside-container-spcl .items .subtitle{
+    font-size: 19px;
+    margin-top: 5px;
+    line-height: 35px;
+}
+
+.leftside-image-spcl img{
+    width: 711.53px;
+    height: 415.06px;
+}
+.leftside-image-spcl{
+    width: 711.53px;
+    height: 415.06px;
+}
+
+/* HERO WHICH IS LEFT SIDE WILL BE ITEMS AND RIGHTSIDE WILL BE IMAGE */
+
+.hero-2-container{
+    width: 1423.06px;
+    height: 617.65px;
+    display: flex;
+}
+
+.leftside-container{
+    
+    align-items: center;
+    justify-content: center;
+    width: 711.53px;
+    height: 617.65px;
+}
+
+.items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    margin-top: 200px;
+}
+
+
+.title{
+    line-height: 10px;
+    font-weight: 500;
+    font-size: 50px;
+    letter-spacing: 0.1cm;
+    justify-content: center;
+    
+}
+
+.subtitle{
+    font-size: 25px;
+    margin-top: 1px;
+    line-height: 35px;
+}
+
+.rightside-image img{
+    width: 711.53px;
+    height: 617.65px;
+}
+.rightside-image{
+    width: 711.53px;
+    height: 617.65px;
+}
+
+.order-now{
+    padding: 7px 14px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'SoDo Sans';
+    background: transparent;
+    
+}
+
+.paragraph-1-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 391.6px;
+    padding: 32px 0px;
+
+}
+
+.paragraph-1-container .p-1{
+    text-align: center;
+    padding: 0 48px;
+    width: 742.15px;
+    height: 391.6px;
+
+}
+
+.p-1 p{
+    font-size: 15.5px;
+    line-height: 0.7cm;
+    font-weight: normal;
+    letter-spacing: 0px;
+    width: 742.15px;
+    height: 391.6px;
+}
+
+.paragraph-2-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1423.06px;
+    height: 190px;
+    align-items: center;
+    display: flex;
+}
+
+.paragraph-2-container .p-2{
+    text-align: center;
+    padding: 0 48px;
+    /* width: 742.15px;
+    height: 128px; */
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.p-2 p{
+    line-height: 0.7cm;
+    font-weight: normal;
+    width: 742.15px;
+}
+
+/* ____FOOTER____ */
+footer{
+    
+    height: 920px;
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+}
+
+.lists{
+    display: flex;
+    margin-left: 25px;
+    height: 600px;
+    
+}
+
+.footerdiv{
+    width: 16.6%;
+    height: 430px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 15px;
+    line-height: 4.5dvh;
+}
+
+.headerclass{
+    font-size: 19px;
+    font-weight: 400;
+    font-family: 'SoDo Sans';
+}
+
+.paraclass{
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'SoDo Sans';
+    color: gray;
+}
+
+.gap-spcl{
+    border: 0;
+    margin: 0;
+    content: "";
+    display: block;
+    padding: 28px;
+    border-top: solid 1px rgba(128, 128, 128, 0.566);
+}
+
+.sm-icons{
+    width: 1348.06px;
+    height: 55.44px;
+    margin: 0px;
+    display: flex;
+    margin-left: 35px;
+    gap: 2dvh;
+}
+
+.sm-icons a svg{
+    color: #000000;
+}
+
+.sm-icon a:hover {
+    transition: all ease-out 0.2s;
+    transform-origin: center;
+    transform: scale(.4);
+    fill: transparent;
+    opacity: .1;
+}
+
+.links{
+    width: 25%;
+    height: 500px;
+    margin-left: 35px;
+    line-height: 7dvh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.links a{
+    color: black;
+    font-size: 16px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.cr{
+    margin-left: 35px;
+    color: grey;
+    font-size: 14px;
+    margin-top: 10px;
+    
+   
+}
+
